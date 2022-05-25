@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bgc {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/bgc2.png") no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+  .container {
+    color: white;
+    width: 1900px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+
+      .nav_logo_box {
+        text-transform: uppercase;
+        margin-top: 35px;
+        font-weight: bold;
+        font-size: 72px;
+      }
+
+      .menu {
+        display: flex;
+        font-size: 26px;
+        font-weight: 400;
+        margin: 75px 90px 0 0;
+
+        .menu_offer {
+          margin: 0 50px;
+        }
+
+        .menu_own_office {
+          margin: 0 50px;
+        }
+      }
+
+      .icons {
+        margin-top: 75px;
+
+        .iq_ico {
+          margin-left: 30px;
+        }
+      }
+    }
+
+    .box_contact_lorem {
+      display: flex;
+      justify-content: space-between;
+
+      .about_busines {
+
+        .busines_logo {
+          font-size: 32px;
+        }
+
+        .busines_lorem {
+          font-size: 18px;
+        }
+
+      }
+
+      .contact {
+        margin-top: 120px;
+        padding: 20px;
+        max-height: 850px;
+        max-width: 450px;
+        color: black;
+        background: white;
+
+        .container_contact {
+          max-width: 80%;
+          margin: 0 auto;
+
+          .text_contact {
+            font-size: 18px;
+          }
+
+          .form_contact {
+            .input_box {
+              display: flex;
+              flex-direction: column;
+
+              .input_contact {
+                padding: 10px;
+                margin: 10px 0;
+                font-size: 20px;
+                font-weight: 100;
+              }
+            }
+
+            .checkbox_text_agree {
+              display: flex;
+
+              .checkbox_agree {
+                margin-right: 3px;
+              }
+
+              .agree_text_button {
+                font-size: 8px;
+              }
+
+            }
+
+            .button_contact {
+              background: black;
+              color: white;
+              font-size: 20px;
+              font-weight: 700;
+              padding: 10px;
+              margin-top: 20px;
+              width: 100%;
+              letter-spacing: 2px;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+}
