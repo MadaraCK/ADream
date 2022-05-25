@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import "./layout.scss"
 import Index from "../header/index"
+import Busines from "../about_busines/busines";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -19,6 +20,7 @@ const Layout = ({ children }) => {
   return (
   <div>
     <Index/>
+    <Busines/>
   </div>
   )
 }

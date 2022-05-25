@@ -4,7 +4,7 @@ import './index.scss'
 function Index() {
     return (
         <section className="bgc">
-            <header className="container">
+            <header className="container_index">
                 <section className="navigation">
                     <div className="nav_logo_box">
                         <h1 className="nav_logo">logo</h1>
@@ -84,6 +84,7 @@ function Index() {
                     </div>
                 </section>
             </header>
+
         </section>
     );
 }
