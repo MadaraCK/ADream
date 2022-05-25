@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +41,37 @@
 
         .menu_own_office {
           margin: 0 50px;
+        }
+
+        p {
+          cursor: pointer;
+          position: relative;
+          transition: color .2s ease;
+          &:hover{
+            &::after,
+            &::before{
+              width: 100%;
+              left: 0;
+            }
+          }
+          &::after,
+          &::before{
+            content: '';
+            position: absolute;
+            top: calc(50% + 1px);
+            width: 0;
+            right: 0;
+            height: 2px;
+          }
+          &::before{
+            transition: width .4s cubic-bezier(0.51,0.18,0,0.88) .1s;
+            background: gray;
+          }
+          &::after {
+            transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+            background: white;
+          }
+
         }
       }
 
@@ -102,6 +134,7 @@
 
               .checkbox_agree {
                 margin-right: 3px;
+
               }
 
               .agree_text_button {
@@ -112,6 +145,12 @@
 
             .button_contact {
               background: black;
+              background: {
+                image: linear-gradient(45deg, rgba(255, 204, 72, 1) 50%, transparent 50%);
+                position: 100%;
+                size: 400%;
+              };
+              transition: background 500ms ease-in-out;
               color: white;
               font-size: 20px;
               font-weight: 700;
@@ -120,6 +159,11 @@
               width: 100%;
               letter-spacing: 2px;
               text-transform: uppercase;
+
+              &:hover {
+                background-position: 0;
+                color: black;
+              }
             }
           }
         }
