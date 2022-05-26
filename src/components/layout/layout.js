@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import "./layout.scss"
 import Index from "../header/index"
 import Busines from "../about_busines/busines";
+import Benefits from "../benefits/benefits";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -21,6 +22,7 @@ const Layout = ({ children }) => {
   <div>
     <Index/>
     <Busines/>
+    <Benefits/>
   </div>
   )
 }

@@ -1,12 +1,16 @@
 .container {
   max-width: 1900px;
   margin: 0 auto;
-  height: 100vh;
+  height: 80vh;
   font-family: 'Poppins', sans-serif;
-.ofice_cost{
-  font-size: 18px;
-  margin: 30px 0 0 30px;
-}
+
+  .ofice_cost {
+    font-size: 18px;
+    margin: 30px 0 0 30px;
+    @media screen and (max-width: 1520px){
+     font-size: 16px;
+    }
+  }
 
   .first_container {
     margin-top: 150px;
@@ -39,6 +43,10 @@
             position: relative;
             font-weight: bold;
             font-size: 28px;
+            @media screen and (max-width: 1520px){
+              font-size: 20px;
+            }
+
 
             &:before {
               content: "";
@@ -46,6 +54,10 @@
               width: 40px;
               height: 40px;
               background: #FFCC48;
+              @media screen and (max-width: 1520px){
+                width: 30px;
+                height: 30px;
+              }
             }
           }
 
@@ -54,6 +66,28 @@
 
         &:hover {
           transform: scale(1.2)
+        }
+
+        .arrow {
+          position: absolute;
+          width: 130px;
+          height: 130px;
+          top: 365px;
+          left: 640px;
+          background: white;
+          @media screen and (max-width: 1920px) {
+            left: 578px;
+            top: 365px;
+          }
+          @media screen and (max-width: 1520px) {
+            left: 468px;
+            top: 365px;
+          }
+          @media screen and (max-width: 1280px) {
+            left: 307px;
+            top: 365px;
+          }
+
         }
       }
     }
@@ -89,6 +123,9 @@
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
             font-size: 28px;
+            @media screen and (max-width: 1520px){
+              font-size: 20px;
+            }
 
             &:before {
               content: "";
@@ -96,6 +133,10 @@
               width: 40px;
               height: 40px;
               background: #FFCC48;
+              @media screen and (max-width: 1520px){
+                width: 30px;
+                height: 30px;
+              }
             }
           }
 
@@ -103,6 +144,28 @@
 
         &:hover {
           transform: scale(1.2)
+        }
+
+        .arrow {
+          position: absolute;
+          width: 130px;
+          height: 130px;
+          left: 640px;
+          top: 365px;
+          background: white;
+          @media screen and (max-width: 1920px) {
+
+            left: 578px;
+            top: 365px;
+          }
+          @media screen and (max-width: 1520px) {
+            left: 468px;
+            top: 365px;
+          }
+          @media screen and (max-width: 1280px) {
+            left: 308px;
+            top: 365px;
+          }
         }
       }
     }
@@ -126,9 +189,9 @@
         height: 362px;
         margin: 0 auto;
         position: relative;
-
         display: block;
         opacity: 75%;
+
 
         .ofice_lorem3 {
           width: 225px;
@@ -137,6 +200,10 @@
           position: absolute;
           height: 195px;
           background: white;
+          @media screen and (max-width: 1520px){
+            width: 180px;
+            height: 160px;
+          }
 
           .ofice3 {
             max-width: 50px;
@@ -145,6 +212,9 @@
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
             font-size: 28px;
+            @media screen and (max-width: 1520px){
+              font-size: 20px;
+            }
 
             &:before {
               content: "";
@@ -152,6 +222,10 @@
               width: 40px;
               height: 40px;
               background: #FFCC48;
+              @media screen and (max-width: 1520px){
+                width: 30px;
+                height: 30px;
+              }
             }
           }
 
@@ -159,6 +233,28 @@
 
         &:hover {
           transform: scale(1.2)
+        }
+
+        .arrow {
+          position: absolute;
+          width: 130px;
+          height: 130px;
+          left: 640px;
+          top: 232px;
+          background: white;
+          @media screen and (max-width: 1920px) {
+
+            left: 578px;
+            top: 232px;
+          }
+          @media screen and (max-width: 1520px) {
+            left: 468px;
+            top: 232px;
+          }
+          @media screen and (max-width: 1280px) {
+            left: 308px;
+            top: 232px;
+          }
         }
       }
     }
@@ -184,6 +280,10 @@
           left: 30px;
           position: absolute;
           background: white;
+          @media screen and (max-width: 1520px){
+            width: 230px;
+            height: 160px;
+          }
 
           .ofice {
             margin: 30px 0 0 30px;
@@ -191,6 +291,9 @@
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
             font-size: 28px;
+            @media screen and (max-width: 1520px){
+              font-size: 20px;
+            }
 
             &:before {
               content: "";
@@ -198,6 +301,10 @@
               width: 40px;
               height: 40px;
               background: #FFCC48;
+              @media screen and (max-width: 1520px){
+                width: 30px;
+                height: 30px;
+              }
             }
           }
 
@@ -206,9 +313,30 @@
         &:hover {
           transform: scale(1.2)
         }
+
+        .arrow {
+          position: absolute;
+          width: 130px;
+          height: 130px;
+          left: 640px;
+          top: 232px;
+          background: white;
+          @media screen and (max-width: 1920px) {
+
+            left: 578px;
+            top: 232px;
+          }
+          @media screen and (max-width: 1520px) {
+            left: 468px;
+            top: 232px;
+          }
+          @media screen and (max-width: 1280px) {
+            left: 308px;
+            top: 232px;
+          }
+        }
       }
     }
   }
-
-
 }
+

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './busines.scss'
 
 function Busines() {
@@ -10,6 +11,8 @@ function Busines() {
                         <div className="box_ofice">
                             <h2 className="ofice ofice1">Biuro</h2>
                             <p className="ofice_cost">od 1000zl/msc</p>
+                        </div>
+                        <div className="arrow">
 
                         </div>
                     </div>
@@ -19,9 +22,10 @@ function Busines() {
                         <div className="ofice_lorem">
                             <h2 className="ofice ofice2">Lorem Ipsum</h2>
                             <p className="ofice_cost">od 1000zl/msc</p>
+                        </div>
+                        <div className="arrow">
 
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -31,6 +35,8 @@ function Busines() {
                         <div className="ofice_lorem3">
                             <h2 className="ofice ofice3">Biuro Lorem</h2>
                             <p className="ofice_cost">od 1000zl/msc</p>
+                        </div>
+                        <div className="arrow">
 
                         </div>
                     </div>
@@ -40,6 +46,8 @@ function Busines() {
                         <div className="ofice_lorem4">
                             <h2 className="ofice ofice4">Biuro Lorem ipsum Lorem</h2>
                             <p className="ofice_cost">od 1000zl/msc</p>
+                        </div>
+                        <div className="arrow">
 
                         </div>
                     </div>

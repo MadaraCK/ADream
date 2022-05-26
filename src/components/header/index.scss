@@ -91,10 +91,30 @@
 
         .busines_logo {
           font-size: 72px;
+          @media screen and (max-width: 1520px) {
+            font-size: 42px;
+          }
+          @media screen and (max-width: 1680px) {
+            font-size: 54px;
+          }
+          @media screen and (max-width: 1440px) {
+            font-size: 38px;
+          }
+
         }
 
         .busines_lorem {
           font-size: 48px;
+          @media screen and (max-width: 1520px) {
+            font-size: 32px;
+          }
+          @media screen and (max-width: 1680px) {
+            font-size: 40px;
+          }
+          @media screen and (max-width: 1440px) {
+            font-size: 26px;
+          }
+
         }
 
       }
@@ -106,6 +126,24 @@
         max-width: 450px;
         color: black;
         background: white;
+        @media screen and (max-width: 1920px) {
+          max-height: 700px;
+          padding: 10px;
+        }
+        @media screen and (max-width: 1680px) {
+          max-height: 650px;
+          padding: 5px;
+        }
+        @media screen and (max-width: 1520px) {
+          max-height: 660px;
+          padding: 5px;
+        }
+        @media screen and (max-width: 1440px) {
+          margin-top: 60px;
+          padding: 4px;
+          max-height: 580px;
+          max-width: 400px;
+        }
 
         .container_contact {
           max-width: 80%;
@@ -116,12 +154,19 @@
 
             p {
               margin: 15px 0;
+              @media screen and (max-width: 1440px) {
+                margin: 10px 0;
+              }
             }
 
             h2 {
               margin: 10px 0;
               font-size: 29px;
               text-align: justify-all;
+              @media screen and (max-width: 1440px) {
+                font-size: 25px;
+
+              }
             }
 
             h3 {
@@ -141,6 +186,17 @@
                 font-size: 20px;
                 font-weight: 100;
                 border: 1px solid black;
+                @media screen and (max-width: 1680px) {
+                  font-size: 15px;
+                  margin: 10px 0;
+                  padding: 15px;
+                }
+                @media screen and (max-width: 1440px) {
+                  font-size: 10px;
+                  margin: 10px 0;
+                  padding: 10px;
+                }
+
               }
             }
 
@@ -179,6 +235,11 @@
               &:hover {
                 background-position: 0;
                 color: black;
+              }
+
+              @media screen and (max-width: 1440px) {
+                margin: 10px 0;
+                padding: 6px;
               }
             }
           }
@@ -251,8 +312,8 @@
       }
     }
   }
-   p.busines_lorem{
-     font-size: 20px;
-   }
+  p.busines_lorem {
+    font-size: 20px;
+  }
 
 }
