@@ -2,6 +2,7 @@
   max-width: 1900px;
   margin: 0 auto;
   height: 100vh;
+
   .first_container {
     margin-top: 150px;
     display: flex;
@@ -9,15 +10,48 @@
     gap: 25px;
 
     .first_images {
-      background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2)), url("../../images/img busines 1.png");
+      background-size: cover;
+      overflow: hidden;
       width: 770px;
       height: 495px;
+
+      img {
+        transition-duration: 1s;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        background: white;
+        opacity: 75%;
+      img:before{
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 100px;
+        background-color: black;
+      }
+
+        &:hover {
+          transform: scale(1.2)
+        }
+      }
     }
 
     .secondary_images {
-      background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2)), url("../../images/img busines 2.png");
+      background-size: cover;
+      overflow: hidden;
       width: 770px;
       height: 495px;
+
+      img {
+        transition-duration: 1s;
+        margin: 0 auto;
+        display: block;
+        opacity: 75%;
+
+        &:hover {
+          transform: scale(1.2)
+        }
+      }
     }
   }
 
@@ -26,16 +60,41 @@
     justify-content: space-between;
     margin-top: 50px;
     gap: 25px;
+
     .third_images {
-      background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2)), url("../../images/img busines 3.png");
+      background-size: cover;
+      overflow: hidden;
       width: 770px;
-      height: 362px;
+      height: 495px;
+
+      img {
+        transition-duration: 1s;
+        margin: 0 auto;
+        display: block;
+        opacity: 75%;
+
+        &:hover {
+          transform: scale(1.2)
+        }
+      }
     }
 
     .fourth_images {
-      background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2)), url("../../images/img busines 4.png");
+      background-size: cover;
+      overflow: hidden;
       width: 770px;
-      height: 362px;
+      height: 495px;
+
+      img {
+        transition-duration: 1s;
+        margin: 0 auto;
+        display: block;
+        opacity: 75%;
+
+        &:hover {
+          transform: scale(1.2)
+        }
+      }
     }
   }
 
