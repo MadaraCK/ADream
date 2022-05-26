@@ -2,6 +2,11 @@
   max-width: 1900px;
   margin: 0 auto;
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
+.ofice_cost{
+  font-size: 18px;
+  margin: 30px 0 0 30px;
+}
 
   .first_container {
     margin-top: 150px;
@@ -12,23 +17,40 @@
     .first_images {
       background-size: cover;
       overflow: hidden;
-      width: 770px;
-      height: 495px;
 
-      img {
+      .img1 {
+        background-image: url("../../images/imgbusines1.png");
+        width: 770px;
+        height: 495px;
         transition-duration: 1s;
         position: relative;
-        margin: 0 auto;
-        display: block;
-        background: white;
         opacity: 75%;
-      img:before{
-        position: absolute;
-        content: "";
-        width: 100px;
-        height: 100px;
-        background-color: black;
-      }
+
+        .box_ofice {
+          width: 220px;
+          top: 30px;
+          left: 30px;
+          position: absolute;
+          height: 160px;
+          background: white;
+
+          .ofice {
+            margin: 30px 0 0 30px;
+            position: relative;
+            font-weight: bold;
+            font-size: 28px;
+
+            &:before {
+              content: "";
+              position: absolute;
+              width: 40px;
+              height: 40px;
+              background: #FFCC48;
+            }
+          }
+
+        }
+
 
         &:hover {
           transform: scale(1.2)
@@ -39,14 +61,45 @@
     .secondary_images {
       background-size: cover;
       overflow: hidden;
-      width: 770px;
-      height: 495px;
 
-      img {
+
+      .img2 {
+        background-image: url("../../images/imgbusines2.png");
+        width: 770px;
+        height: 495px;
         transition-duration: 1s;
         margin: 0 auto;
         display: block;
+        position: relative;
+
         opacity: 75%;
+
+        .ofice_lorem {
+          width: 240px;
+          top: 30px;
+          left: 30px;
+          position: absolute;
+          height: 195px;
+          background: white;
+
+          .ofice2 {
+            max-width: 50px;
+            margin: 30px 0 0 30px;
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 28px;
+
+            &:before {
+              content: "";
+              position: absolute;
+              width: 40px;
+              height: 40px;
+              background: #FFCC48;
+            }
+          }
+
+        }
 
         &:hover {
           transform: scale(1.2)
@@ -64,14 +117,45 @@
     .third_images {
       background-size: cover;
       overflow: hidden;
-      width: 770px;
-      height: 495px;
 
-      img {
+
+      .img3 {
+        background-image: url("../../images/imgbusines3.png");
         transition-duration: 1s;
+        width: 770px;
+        height: 362px;
         margin: 0 auto;
+        position: relative;
+
         display: block;
         opacity: 75%;
+
+        .ofice_lorem3 {
+          width: 225px;
+          top: 138px;
+          left: 30px;
+          position: absolute;
+          height: 195px;
+          background: white;
+
+          .ofice3 {
+            max-width: 50px;
+            margin: 30px 0 0 30px;
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 28px;
+
+            &:before {
+              content: "";
+              position: absolute;
+              width: 40px;
+              height: 40px;
+              background: #FFCC48;
+            }
+          }
+
+        }
 
         &:hover {
           transform: scale(1.2)
@@ -82,14 +166,42 @@
     .fourth_images {
       background-size: cover;
       overflow: hidden;
-      width: 770px;
-      height: 495px;
 
-      img {
+      .img4 {
+        background-image: url("../../images/imgbusines4.png");
+        width: 770px;
+        height: 362px;
         transition-duration: 1s;
         margin: 0 auto;
+        position: relative;
         display: block;
         opacity: 75%;
+
+        .ofice_lorem4 {
+          width: 324px;
+          height: 195px;
+          top: 138px;
+          left: 30px;
+          position: absolute;
+          background: white;
+
+          .ofice {
+            margin: 30px 0 0 30px;
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 28px;
+
+            &:before {
+              content: "";
+              position: absolute;
+              width: 40px;
+              height: 40px;
+              background: #FFCC48;
+            }
+          }
+
+        }
 
         &:hover {
           transform: scale(1.2)
