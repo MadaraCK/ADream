@@ -4,7 +4,6 @@ import './news.scss'
 function News() {
     return (
         <div className="container">
-            <div className="box-news">
             <div className="news_box_h1">
                 <h1 className="news_h1">Aktualności</h1>
             </div>
@@ -30,7 +29,7 @@ function News() {
                     <p className="more_news">Więcej</p>
                 </div>
             </section>
-            </div>
+
         </div>
     )
 }

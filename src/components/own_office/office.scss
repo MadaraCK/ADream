@@ -40,6 +40,14 @@
           left: 1455px;
           top: 3600px;
         }
+        @media screen and (max-width: 1680px){
+          left: 1300px ;
+          top: 3520px;
+        }
+        @media screen and (max-width: 1600px){
+          left: 1150px;
+          top: 3450px;
+        }
       }
     }
   }
