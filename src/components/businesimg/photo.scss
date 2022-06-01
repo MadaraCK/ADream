@@ -1,0 +1,59 @@
+.images_photo {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  .first_image {
+    overflow: hidden;
+
+    .photo_img_1 {
+      background: url("../../images/img1photo.png");
+      width: 625px;
+      height: 888px;
+      transition-duration: 1s;
+      position: relative;
+      margin: 0 auto;
+
+      &:hover {
+        transform: scale(1.2)
+      }
+    }
+
+  }
+
+  .secondary_image {
+
+    .photo_img_2 {
+      background: url("../../images/img2photo.png");
+      width: 770px;
+      height: 547px;
+      margin-bottom: 20px;
+
+    }
+
+    .photo_img_3 {
+      background: url("../../images/imgnews2.png");
+      width: 770px;
+      height: 321px;
+    }
+  }
+
+  .last_image {
+    .galery {
+      font-family: 'Poppins', sans-serif;
+      font-size: 65px;
+      font-weight: bold;
+
+    }
+
+    .photo_img_4 {
+      background: url("../../images/imgnews3.png");
+      width: 465px;
+      height: 578px;
+      margin-top: 213px;
+    }
+  }
+
+
+}

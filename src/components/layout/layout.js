@@ -8,6 +8,8 @@ import Busines from "../about_busines/busines";
 import Benefits from "../benefits/benefits";
 import Office from "../own_office/office";
 import News from "../news/news";
+import Photo from "../businesimg/photo";
+import Footer from "../footer/footer";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,6 +29,8 @@ const Layout = ({ children }) => {
     <Benefits/>
     <Office/>
     <News/>
+    <Photo/>
+    <Footer/>
   </div>
   )
 }
