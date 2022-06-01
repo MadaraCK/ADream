@@ -6,6 +6,8 @@ import "./layout.scss"
 import Index from "../header/index"
 import Busines from "../about_busines/busines";
 import Benefits from "../benefits/benefits";
+import Office from "../own_office/office";
+import News from "../news/news";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -23,6 +25,8 @@ const Layout = ({ children }) => {
     <Index/>
     <Busines/>
     <Benefits/>
+    <Office/>
+    <News/>
   </div>
   )
 }

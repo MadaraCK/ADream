@@ -1,0 +1,52 @@
+.bgc_office {
+  background: url("../../images/Group 258@2x.png");
+
+
+  @media screen and (max-width: 1920px) {
+    margin-top: 800px;
+    float: right;
+    background: url("../../images/Group 258.png");
+    width: 1585px;
+    height: 642px;
+  }
+
+  .office {
+
+    .lorem_vs_office {
+
+      font-size: 82px;
+      font-weight: bold;
+      max-width: 660px;
+      margin-top: 500px;
+      padding-bottom: 240px;
+      border-bottom: 20px solid black;
+      @media screen and (max-width: 1920px) {
+
+        font-size: 65px;
+        margin-top: 200px;
+        padding-bottom: 140px;
+        max-width: 525px;
+        float: left;
+
+
+      }
+
+      &:after {
+        position: absolute;
+        top: 3530px;
+        left: 1920px;
+        content: url("../../images/Group576.svg");
+        @media screen and (max-width: 1920px) {
+          left: 1455px;
+          top: 3600px;
+        }
+      }
+    }
+  }
+}
+.clearfix:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+

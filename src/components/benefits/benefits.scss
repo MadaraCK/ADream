@@ -4,3 +4,96 @@
   height: 80vh;
   font-family: 'Poppins', sans-serif;
 }
+.text_benefits_p{
+  max-width: 250px;
+  padding-bottom: 15px;
+  border-bottom: 10px solid black;
+}
+
+.box_benefits {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 150px;
+  @media screen and (max-width: 1920px) {
+    margin-top: 200px;
+    gap: 100px;
+
+  }
+
+  .text_benefits {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .img_all {
+    width: 290px;
+
+
+    .text_p_all{
+      font-size: 28px;
+      margin-top: 30px;
+    }
+
+    .bgc_1 {
+      background: url("../../images/Group 603.svg");
+      margin-top: 100px;
+      width: 108px;
+      height: 128px;
+    }
+
+    .bgc_2 {
+      background: url("../../images/Group 602.svg");
+      margin-top: 100px;
+      width: 108px;
+      height: 128px;
+    }
+
+    .bgc_3 {
+      background: url("../../images/Group 601.svg");
+      margin-top: 100px;
+      width: 108px;
+      height: 128px;
+      @media screen and (max-width: 1920px){
+        margin-top: 0;
+      }
+    }
+
+    .bgc_4 {
+      background: url("../../images/Group 604.svg");
+      width: 100px;
+      height: 115px;
+    }
+
+    .bgc_5 {
+      background: url("../../images/Group 598.svg");
+      width: 136px;
+      height: 100px;
+    }
+
+    .bgc_6 {
+      background: url("../../images/Group 599.svg");
+      width: 120px;
+      height: 119px;
+    }
+
+    .bgc_7 {
+      background: url("../../images/Group 600.svg");
+      width: 130px;
+      height: 102px;
+    }
+  }
+}
+.more_benefits{
+  margin-top: 100px;
+  width: 380px;
+  height: 78px;
+  padding: 10px;
+  text-transform: uppercase;
+  background: black;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
