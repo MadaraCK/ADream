@@ -1,6 +1,74 @@
-.footer_bgc{
+
+.footer_bgc {
+  overflow: hidden;
   margin-top: 170px;
   background: black;
   width: 100%;
   height: 600px;
+  color: white;
+
+  .box_footer {
+    display: flex;
+    justify-content: space-between;
+
+    .first_section_footer {
+
+      .logo_footer {
+        margin: 80px 0 56px 0;
+        font-size: 65px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+      }
+
+      .number_footer {
+        margin-top: 35px;
+        font-weight: bold;
+      }
+
+      .email_footer {
+        font-weight: bold;
+
+      }
+
+      .policy_footer {
+        margin-top: 100%;
+        font-size: 12px;
+      }
+
+    }
+
+    .secondary_section_footer {
+      margin-top: 230px;
+      gap: 200px;
+      display: inline-flex;
+      justify-content: center;
+
+      .space_footer {
+        margin: 18px 0;
+      }
+    }
+
+    .logo_busines {
+      .logo_group {
+        &:after {
+          content: url("../../images/Group 586.svg");
+          position: absolute;
+          margin-top: -30px;
+
+        }
+      }
+
+      .logo_busines_design {
+        margin-top: 540px;
+
+        font-size: 12px;
+
+        &:after {
+          content: url("../../images/logo_adream.svg");
+          margin-left: 5px;
+        }
+      }
+    }
+  }
 }
