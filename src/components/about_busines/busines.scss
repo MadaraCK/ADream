@@ -7,8 +7,8 @@
   .ofice_cost {
     font-size: 18px;
     margin: 30px 0 0 30px;
-    @media screen and (max-width: 1520px){
-     font-size: 16px;
+    @media screen and (max-width: 1520px) {
+      font-size: 16px;
     }
   }
 
@@ -26,7 +26,8 @@
         background-image: url("../../images/imgbusines1.png");
         width: 770px;
         height: 495px;
-        transition-duration: 1s;
+        transition: all 1s;
+        background-size: 100%;
         position: relative;
         opacity: 75%;
 
@@ -43,7 +44,7 @@
             position: relative;
             font-weight: bold;
             font-size: 28px;
-            @media screen and (max-width: 1520px){
+            @media screen and (max-width: 1520px) {
               font-size: 20px;
             }
 
@@ -54,7 +55,7 @@
               width: 40px;
               height: 40px;
               background: #FFCC48;
-              @media screen and (max-width: 1520px){
+              @media screen and (max-width: 1520px) {
                 width: 30px;
                 height: 30px;
               }
@@ -65,7 +66,8 @@
 
 
         &:hover {
-          transform: scale(1.2)
+          transition: all 1s;
+          background-size: 110%;
         }
 
         .arrow {
@@ -101,7 +103,8 @@
         background-image: url("../../images/imgbusines2.png");
         width: 770px;
         height: 495px;
-        transition-duration: 1s;
+        transition: all 1s;
+        background-size: 100%;
         margin: 0 auto;
         display: block;
         position: relative;
@@ -123,7 +126,7 @@
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
             font-size: 28px;
-            @media screen and (max-width: 1520px){
+            @media screen and (max-width: 1520px) {
               font-size: 20px;
             }
 
@@ -133,7 +136,7 @@
               width: 40px;
               height: 40px;
               background: #FFCC48;
-              @media screen and (max-width: 1520px){
+              @media screen and (max-width: 1520px) {
                 width: 30px;
                 height: 30px;
               }
@@ -143,7 +146,9 @@
         }
 
         &:hover {
-          transform: scale(1.2)
+          background-size: 110%;
+          transition: all 1s;
+
         }
 
         .arrow {
@@ -184,13 +189,14 @@
 
       .img3 {
         background-image: url("../../images/imgbusines3.png");
-        transition-duration: 1s;
         width: 770px;
         height: 362px;
         margin: 0 auto;
         position: relative;
         display: block;
         opacity: 75%;
+        transition: all 1s;
+        background-size: 100%;
 
 
         .ofice_lorem3 {
@@ -200,7 +206,7 @@
           position: absolute;
           height: 195px;
           background: white;
-          @media screen and (max-width: 1520px){
+          @media screen and (max-width: 1520px) {
             width: 180px;
             height: 160px;
           }
@@ -212,7 +218,7 @@
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
             font-size: 28px;
-            @media screen and (max-width: 1520px){
+            @media screen and (max-width: 1520px) {
               font-size: 20px;
             }
 
@@ -222,7 +228,7 @@
               width: 40px;
               height: 40px;
               background: #FFCC48;
-              @media screen and (max-width: 1520px){
+              @media screen and (max-width: 1520px) {
                 width: 30px;
                 height: 30px;
               }
@@ -232,7 +238,8 @@
         }
 
         &:hover {
-          transform: scale(1.2)
+          transition: all 1s;
+          background-size: 110%;
         }
 
         .arrow {
@@ -267,11 +274,12 @@
         background-image: url("../../images/imgbusines4.png");
         width: 770px;
         height: 362px;
-        transition-duration: 1s;
         margin: 0 auto;
         position: relative;
         display: block;
         opacity: 75%;
+        transition: all 1s;
+        background-size: 100%;
 
         .ofice_lorem4 {
           width: 324px;
@@ -280,7 +288,7 @@
           left: 30px;
           position: absolute;
           background: white;
-          @media screen and (max-width: 1520px){
+          @media screen and (max-width: 1520px) {
             width: 230px;
             height: 160px;
           }
@@ -291,7 +299,7 @@
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
             font-size: 28px;
-            @media screen and (max-width: 1520px){
+            @media screen and (max-width: 1520px) {
               font-size: 20px;
             }
 
@@ -301,7 +309,7 @@
               width: 40px;
               height: 40px;
               background: #FFCC48;
-              @media screen and (max-width: 1520px){
+              @media screen and (max-width: 1520px) {
                 width: 30px;
                 height: 30px;
               }
@@ -311,7 +319,8 @@
         }
 
         &:hover {
-          transform: scale(1.2)
+          transition: all 1s;
+          background-size: 110%;
         }
 
         .arrow {
