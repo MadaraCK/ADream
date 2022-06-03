@@ -10,6 +10,7 @@ import Office from "../own_office/office";
 import News from "../news/news";
 import Photo from "../businesimg/photo";
 import Footer from "../footer/footer";
+import {images} from "../header/images"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
   <div>
-    <Index/>
+    <Index slides={images}/>
     <Busines/>
     <Benefits/>
     <Office/>
