@@ -1,3 +1,5 @@
+@import "../mixin/mixin";
+
 .container {
   max-width: 1900px;
   margin: 0 auto;
@@ -44,6 +46,7 @@
             position: relative;
             font-weight: bold;
             font-size: 28px;
+            z-index: 1;
             @media screen and (max-width: 1520px) {
               font-size: 20px;
             }
@@ -54,6 +57,7 @@
               position: absolute;
               width: 40px;
               height: 40px;
+              z-index: -1;
               background: #FFCC48;
               @media screen and (max-width: 1520px) {
                 width: 30px;
@@ -126,6 +130,8 @@
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
             font-size: 28px;
+            z-index: 1;
+
             @media screen and (max-width: 1520px) {
               font-size: 20px;
             }
@@ -135,6 +141,8 @@
               position: absolute;
               width: 40px;
               height: 40px;
+              z-index: -1;
+
               background: #FFCC48;
               @media screen and (max-width: 1520px) {
                 width: 30px;
@@ -206,6 +214,7 @@
           position: absolute;
           height: 195px;
           background: white;
+
           @media screen and (max-width: 1520px) {
             width: 180px;
             height: 160px;
@@ -218,6 +227,8 @@
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
             font-size: 28px;
+            z-index: 1;
+
             @media screen and (max-width: 1520px) {
               font-size: 20px;
             }
@@ -226,6 +237,8 @@
               content: "";
               position: absolute;
               width: 40px;
+              z-index: -1;
+
               height: 40px;
               background: #FFCC48;
               @media screen and (max-width: 1520px) {
@@ -299,6 +312,8 @@
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
             font-size: 28px;
+            z-index: 1;
+
             @media screen and (max-width: 1520px) {
               font-size: 20px;
             }
@@ -307,6 +322,8 @@
               content: "";
               position: absolute;
               width: 40px;
+              z-index: -1;
+
               height: 40px;
               background: #FFCC48;
               @media screen and (max-width: 1520px) {

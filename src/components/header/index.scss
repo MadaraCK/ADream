@@ -89,6 +89,9 @@
         max-width: 1200px;
         margin-top: 500px;
 
+          @media screen and (max-width: 1920px){
+            margin-top: 400px;
+          }
         .busines_logo {
           font-size: 72px;
           @media screen and (max-width: 1520px) {
@@ -252,9 +255,11 @@
     .first_box_carousele {
      @include button-carousele;
       left: 150px;
+      @include arrow_right;
     }
     .secondary_box_carousele{
       @include button-carousele;
+      @include arrow_left
     }
   }
 }

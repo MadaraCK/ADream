@@ -1,15 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './index.scss'
 import '../mixin/mixin.scss'
-import img1 from '../../images/bgc1.png'
-import img2 from '../../images/bgc2.png'
-import img3 from '../../images/bgc3.png'
+import {images} from "./images";
 
-function Index() {
-    const images = [img1,img2,img3]
+
+
+
+function Index({slides}) {
+    const [current, setCurrent] = useState(0)
+    const length = slides.length;
+
+    const nextSlide = () => {
+        setCurrent(current === length - 1 ? 0 : current + 1)
+
+    }
+    const prevSlide = () => {
+        setCurrent(current === 0 ? length -1 : current +1)
+    }
+    if (!Array.isArray(slides) || slides.length <= 0) {
+        return null
+    }
 
     return (
         <section className="bgc">
+
             <header className="container_index">
                 <section className="navigation">
                     <div className="nav_logo_box">
@@ -90,14 +104,14 @@ function Index() {
                     </div>
                 </section>
             </header>
-                <section className="change">
-                    <div className="first_box_carousele both_carousel">
+            <section className="change">
+                <div className="first_box_carousele both_carousel" onClick={nextSlide}>
 
-                    </div>
-                    <div className="secondary_box_carousele both_carousel">
+                </div>
+                <div className="secondary_box_carousele both_carousel" onClick={prevSlide}>
 
-                    </div>
-                </section>
+                </div>
+            </section>
         </section>
     );
 }
