@@ -1,7 +1,13 @@
 import React from 'react';
 import './index.scss'
+import '../mixin/mixin.scss'
+import img1 from '../../images/bgc1.png'
+import img2 from '../../images/bgc2.png'
+import img3 from '../../images/bgc3.png'
 
 function Index() {
+    const images = [img1,img2,img3]
+
     return (
         <section className="bgc">
             <header className="container_index">
@@ -84,7 +90,14 @@ function Index() {
                     </div>
                 </section>
             </header>
+                <section className="change">
+                    <div className="first_box_carousele both_carousel">
 
+                    </div>
+                    <div className="secondary_box_carousele both_carousel">
+
+                    </div>
+                </section>
         </section>
     );
 }

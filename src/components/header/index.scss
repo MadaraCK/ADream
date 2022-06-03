@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
-
+@import "../mixin/mixin";
 * {
   margin: 0;
   padding: 0;
@@ -245,6 +245,16 @@
           }
         }
       }
+    }
+  }
+
+  .change {
+    .first_box_carousele {
+     @include button-carousele;
+      left: 150px;
+    }
+    .secondary_box_carousele{
+      @include button-carousele;
     }
   }
 }
